@@ -31,10 +31,10 @@
   </project>
   <project name="aosp/platform/system/core/base" path="src/aosp/system/core/base" revision="8cf6479cfd925657da51da04902a68dfe7e84632" upstream="refs/heads/master" dest-branch="refs/heads/master"/>
   <project name="aosp/platform/system/core/libbacktrace" path="src/aosp/system/core/libbacktrace" revision="d67ee5af5ee2790631aa4f7ca125d12c09840436" upstream="refs/heads/master" dest-branch="refs/heads/master"/>
-  <project name="aosp/platform/system/core/libcutils" path="src/aosp/system/core/libcutils" revision="e50a8af67660544144c9e572d563c0c6ae8a8ddf" upstream="refs/heads/master" dest-branch="refs/heads/master"/>
+  <project name="aosp/platform/system/core/libcutils" path="src/aosp/system/core/libcutils" revision="dcc518ef32993d0171d0849bd3677c9d0948f8bb" upstream="refs/heads/master" dest-branch="refs/heads/master"/>
   <project name="aosp/platform/system/core/liblog" path="src/aosp/system/core/liblog" revision="9cca7081cb7d158034bffec841f227af52cca401" upstream="refs/heads/master" dest-branch="refs/heads/master"/>
-  <project name="aosp/platform/system/core/libsync" path="src/aosp/system/libsync" revision="2069472e9e66b3b7d6fa7800a1f91c0e9290b4c2" upstream="refs/heads/master" dest-branch="refs/heads/master"/>
-  <project name="aosp/platform/system/core/libutils" path="src/aosp/system/core/libutils" revision="02110e5625e05439f6008a01ba40e812cf1c03df" upstream="refs/heads/master" dest-branch="refs/heads/master"/>
+  <project name="aosp/platform/system/core/libsync" path="src/aosp/system/libsync" revision="074e053f159602aa7558cfb2ae2f3c67878d90e0" upstream="refs/heads/master" dest-branch="refs/heads/master"/>
+  <project name="aosp/platform/system/core/libutils" path="src/aosp/system/core/libutils" revision="6518555263253e9fdf7e37d26866cbe75bc11e97" upstream="refs/heads/master" dest-branch="refs/heads/master"/>
   <project name="aosp/platform/system/libbase" path="src/aosp/system/libbase" revision="2cba90a13babf861385364d191710eadab30a50d" upstream="refs/heads/master" dest-branch="refs/heads/master"/>
   <project name="aosp/platform/system/libfmq" path="src/aosp/system/libfmq" revision="88e224a8203eea9ed9fa38a0e4c0260ecd9b69e7" upstream="refs/heads/master" dest-branch="refs/heads/master"/>
   <project name="aosp/platform/system/libhidl" path="src/aosp/system/libhidl" revision="471609b486435ebb3b1136dfe24fca24a48c74ff" upstream="refs/heads/master" dest-branch="refs/heads/master"/>
@@ -95,8 +95,8 @@
   <project name="chromiumos/infra/test_analyzer" path="infra/test_analyzer" revision="14119cc21c146544791fe387f64a4b809c4ea789" upstream="refs/heads/main" dest-branch="refs/heads/main"/>
   <project name="chromiumos/infra_virtualenv" path="infra_virtualenv" revision="cab8a95f2961561eb56a95d6f2bfc685686db75a" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="minilayout,firmware,buildtools,chromeos-admin,labtools,sysmon,devserver"/>
   <project name="chromiumos/manifest" path="manifest" revision="2dcd9b1e51f3a16c706fa6c95a7b47f9fc30f73f" upstream="refs/heads/main" dest-branch="refs/heads/main"/>
-  <project name="chromiumos/overlays/board-overlays" path="src/overlays" revision="8d6c9d435de7029d7d61964e73f3d1e78357c2f8" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="minilayout,firmware"/>
-  <project name="chromiumos/overlays/chromiumos-overlay" path="src/third_party/chromiumos-overlay" revision="a067904e869edbcf70ba3e4f4ebc9da3fd7d54b3" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="minilayout,firmware,labtools" sync-c="true"/>
+  <project name="chromiumos/overlays/board-overlays" path="src/overlays" revision="adf5d3212139cb4f21cf083a1036287d67848f42" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="minilayout,firmware"/>
+  <project name="chromiumos/overlays/chromiumos-overlay" path="src/third_party/chromiumos-overlay" revision="fd17628ee8a3bbaff32fa98b6c13812c6d1ef4c5" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="minilayout,firmware,labtools" sync-c="true"/>
   <project name="chromiumos/overlays/eclass-overlay" path="src/third_party/eclass-overlay" revision="7c0651c729de6fe9ed882126538d82243b3e9338" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="minilayout,firmware,labtools"/>
   <project name="chromiumos/overlays/portage-stable" path="src/third_party/portage-stable" revision="c698b853cd5798ae0c357926d3b29424689eace7" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="minilayout,firmware,labtools"/>
   <project name="chromiumos/platform/assets" path="src/platform/assets" revision="8a2276f22f0678bee89b8ac6c46d9dd597c6d549" upstream="refs/heads/main" dest-branch="refs/heads/main"/>
@@ -305,7 +305,7 @@
   <project name="chromiumos/third_party/zephyr/hal_stm32" path="src/third_party/zephyr/hal_stm32" revision="bfa3b34f638375b505004095ea3e7a60b3cc7788" upstream="refs/heads/chromeos-main" dest-branch="refs/heads/chromeos-main" groups="firmware,zephyr"/>
   <project name="chromiumos/third_party/zephyr/nanopb" path="src/third_party/zephyr/nanopb" revision="8eb6edf6e05c2328605ad351da806fa37cefc068" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,zephyr"/>
   <project name="external/git.kernel.org/fs/xfs/xfstests-dev" path="src/third_party/xfstests" revision="2ea74ba4e70b546279896e2a733c8c7f4b206193" upstream="refs/heads/master" dest-branch="refs/heads/master"/>
-  <project name="external/github.com/llvm/llvm-project" path="src/third_party/llvm-project" revision="670438e55dc265dc0b25567e62a6e328d91f30a0" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="notdefault"/>
+  <project name="external/github.com/llvm/llvm-project" path="src/third_party/llvm-project" revision="cb22d71806b784a9105803f38b2740ca6888392a" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="notdefault"/>
   <project name="infra/luci/client-py" path="chromite/third_party/swarming.client" remote="chromium" revision="34b20305c7a69eb89e1abd5e2a94708db999f0a9" groups="buildtools,chromeos-admin,firmware,labtools,minilayout"/>
   <project name="linux-syscall-support" path="src/third_party/breakpad/src/third_party/lss" revision="e1e7b0ad8ee99a875b272c8e33e308472e897660"/>
   <project name="platform/external/bsdiff" path="src/aosp/external/bsdiff" remote="aosp" revision="109495f5be3b7c9f5cb02c2fcaf6a9cf1debd708" upstream="refs/heads/master" dest-branch="refs/heads/master"/>
@@ -316,7 +316,7 @@
   <project name="platform/external/perfetto" path="src/aosp/external/perfetto" remote="aosp" revision="ff1a1bfefc50ed1d9295e674110f178f1faf4776" upstream="refs/heads/master" dest-branch="refs/heads/master" groups="notdefault"/>
   <project name="platform/external/puffin" path="src/aosp/external/puffin" remote="aosp" revision="c115cd6edf7632e8f399a4c9762e13f8d8e97876" upstream="refs/heads/master" dest-branch="refs/heads/master"/>
   <project name="platform/system/keymaster" path="src/aosp/system/keymaster" remote="aosp" revision="49dfc58d6c4c66f5d0b0d06f0161da4e602a1293" upstream="refs/heads/pie-release" dest-branch="refs/heads/pie-release"/>
-  <project name="website" revision="3555a4a219730bcb5c3b0f0afdc7204e80787076" upstream="refs/heads/main" dest-branch="refs/heads/main">
+  <project name="website" revision="dc2fb879a69f339640ef770cda63683dc0b281c7" upstream="refs/heads/main" dest-branch="refs/heads/main">
     <annotation name="branch-mode" value="drop"/>
   </project>
   
