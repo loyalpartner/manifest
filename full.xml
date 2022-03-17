@@ -454,7 +454,7 @@
            revision="refs/heads/master" />
   <project path="src/third_party/libdrm"
            name="chromiumos/third_party/libdrm"
-           revision="refs/heads/master" />
+           revision="refs/heads/upstream/main" />
   <project path="src/third_party/libdrm-debian"
            name="chromiumos/third_party/libdrm"
            revision="refs/heads/debian"
