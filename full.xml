@@ -748,16 +748,6 @@
   <project path="src/aosp/hardware/interfaces/neuralnetworks"
            name="aosp/platform/hardware/interfaces/neuralnetworks"
            revision="refs/heads/master" />
-  <project path="src/aosp/system/bt/bringup"
-           name="aosp/platform/system/bt"
-           revision="refs/heads/bringup"
-           groups="notdefault,bluetooth" />
-  <project path="src/aosp/system/bt/upstream"
-           name="aosp/platform/system/bt"
-           groups="notdefault,bluetooth">
-    <annotation name="branch-mode" value="pin" />
-  </project>
-
   <project path="src/aosp/packages/modules/Bluetooth/local"
            name="aosp/platform/packages/modules/Bluetooth"
            groups="notdefault,bluetooth" />
