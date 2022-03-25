@@ -667,7 +667,7 @@
   <project path="src/chromium/depot_tools"
            remote="chromium"
            name="chromium/tools/depot_tools"
-           revision="c49a7334d30256abc1fc1e56d79615a220028998"
+           revision="62396c5a83595ec985578fe3e163fde931062615"
            groups="minilayout,firmware,buildtools,labtools" />
   <project path="src/chromium/src/buildtools"
            remote="chromium"
