@@ -662,8 +662,6 @@
   <!-- Chromium repositories.
        We try to check out repos under src/chromium/ using the same layout as a
        Chromium checkout.  e.g. src.git would be at src/chromium/src/. -->
-  <!-- Please keep depot_tools pin in sync with our build recipe at:
-       ~/chromiumos/infra/recipes/recipe_modules/chromite/api.py -->
   <project path="src/chromium/depot_tools"
            remote="chromium"
            name="chromium/tools/depot_tools"
