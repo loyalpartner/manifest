@@ -58,7 +58,7 @@
   <project name="chromiumos/chromite" path="infra/chromite-HEAD" revision="8930841ac0a2f6f030f00ad6a69d53a620d5e0f9" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="buildtools">
     <annotation name="branch-mode" value="tot"/>
   </project>
-  <project name="chromiumos/config" path="src/config" revision="8b010420221aea1f99941c937624d27e3c1c091b" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="config,partner-config"/>
+  <project name="chromiumos/config" path="src/config" revision="b3a953656c88c2562dddf9fcca34b2587bcc2cd4" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="config,partner-config"/>
   <project name="chromiumos/containers/cros-container-guest-tools" path="src/platform/container-guest-tools" revision="b933792566dcff3b23b5ef7b4b920d794b8bf2ef" upstream="refs/heads/main" dest-branch="refs/heads/main"/>
   <project name="chromiumos/docs" path="docs" revision="de80c9645fb24bab4a5f66f4c4eb621ac745a41e" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="crosvm"/>
   <project name="chromiumos/graphyte" path="src/platform/graphyte" revision="f661990d0379f1030bdaa93c573ef4a50e9c6e66" upstream="refs/heads/main" dest-branch="refs/heads/main"/>
