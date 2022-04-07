@@ -337,6 +337,12 @@
            name="chromiumos/third_party/coreboot/intel-microcode"
            revision="refs/heads/master"
            groups="firmware" />
+  <project path="src/third_party/coreboot/3rdparty/libgfxinit"
+           name="chromiumos/third_party/coreboot/libgfxinit"
+           groups="firmware" />
+  <project path="src/third_party/coreboot/3rdparty/libhwbase"
+           name="chromiumos/third_party/coreboot/libhwbase"
+           groups="firmware" />
   <project path="src/third_party/coreboot/3rdparty/qc_blobs"
            name="chromiumos/third_party/coreboot/qc_blobs"
            revision="refs/heads/upstream/master"
