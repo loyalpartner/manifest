@@ -82,7 +82,7 @@
   <project name="chromiumos/infra/proto" path="infra/proto" revision="a605af227e7879c147ca0c38ca7cfe37457ea16c" upstream="refs/heads/main" dest-branch="refs/heads/main">
     <annotation name="branch-mode" value="tot"/>
   </project>
-  <project name="chromiumos/infra/recipes" path="infra/recipes" revision="ba5023d41135539fe23328b2d1a310b4961d41fe" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="chromeos-admin">
+  <project name="chromiumos/infra/recipes" path="infra/recipes" revision="c6fc0166b23d1a2da4ff8b91bd51d34a02dcc7d3" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="chromeos-admin">
     <annotation name="branch-mode" value="drop"/>
   </project>
   <project name="chromiumos/infra/suite_scheduler" path="infra/suite_scheduler" revision="b4a3fa8eccbb8c12b4faa4167906834e325e3bc7" upstream="refs/heads/main" dest-branch="refs/heads/main">
