@@ -38,6 +38,10 @@
            groups="notdefault,infra-tools">
     <annotation name="branch-mode" value="drop" />
   </project>
+  <project path="infra/build/observability-cloud"
+           name="chromiumos/infra/build/observability-cloud">
+    <annotation name="branch-mode" value="drop" />
+  </project>
   <project path="manifest"
            name="chromiumos/manifest" />
   <project path="src/config"
