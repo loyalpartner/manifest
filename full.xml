@@ -70,9 +70,11 @@
   </project>
 
   <!-- Platform projects. -->
+  <!-- TODO(b/187795634): Drop minilayout once common-mk/ tooling moves to
+       chromite. -->
   <project path="src/platform2"
            name="chromiumos/platform2"
-           groups="crosvm" />
+           groups="minilayout,crosvm" />
   <project path="src/platform/assets"
            name="chromiumos/platform/assets" />
   <project path="src/platform/audiotest"
